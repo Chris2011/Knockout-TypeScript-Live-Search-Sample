@@ -11,7 +11,7 @@
   "author": "${author}",
   "contributors": [],
   "dependencies": {
-    "typescript": "^2.4.1"
+    "knockout": "3.4.2"
   },
   "devDependencies": {
     "@types/chai": "^4.0.1",
@@ -39,6 +39,7 @@
     "svg2png-many": "0.0.7",
     "ts-loader": "^2.2.2",
     "ts-node": "^3.2.0",
+    "typescript": "^2.4.1",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
