@@ -1,5 +1,5 @@
 import {App} from "./app";
-import {} from './main.scss';
+import './main.scss';
 
 //import {WebpackRequire} from 'webpack-env';
 //

@@ -6,13 +6,13 @@ export class LanguageType {
     private icon: string;
     private languageName: string;
     private fileExt: string;
-    private isPluginRequired: boolean;
+    //    private isPluginRequired: boolean;
 
     constructor(languageName: string, fileExt: string, isPluginRequired: boolean) {
         this.icon = fileExt || languageName;
         this.languageName = languageName;
         this.fileExt = fileExt || languageName;
-        this.isPluginRequired = isPluginRequired;
+        //        this.isPluginRequired = isPluginRequired;
     }
 
     public get Icon() {

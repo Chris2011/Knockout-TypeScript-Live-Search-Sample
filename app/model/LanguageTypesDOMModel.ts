@@ -10,7 +10,7 @@ export class LanguageTypesDOMModel {
     private firstListElem: HTMLLIElement = null;
     private lastListElem: HTMLLIElement = null;
     private selectedElem: HTMLLIElement = null;
-    private textOfSelectedLiElem: Node = null;
+    public textOfSelectedLiElem: Node = null;
     private inputField: HTMLInputElement = null;
 
     private getIndexOfElem(selectedElem: HTMLLIElement): number {
