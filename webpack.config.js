@@ -7,7 +7,7 @@ module.exports = {
     entry: ["./app/main", './app/main.scss'],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/generated/',
+        publicPath: '/',
         filename: "app.js"
     },
     resolve: {
